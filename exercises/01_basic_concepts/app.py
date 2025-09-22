@@ -23,7 +23,7 @@ class UserRepository:
         In a real application, this would query a database.
         """
         plog("Fetching users from repository", DEBUG)
-        return [{"id": 1, "name": "Alice"}, {"id": 2, "name": "Bob"}]
+        return [{"id": 1, "name": "Alice"}, {"id": 2, "name": "Bod"}]
 
 
 class UserService:
